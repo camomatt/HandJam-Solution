@@ -1,0 +1,288 @@
+﻿[Card Properties]
+{
+	"width": 700
+	"height": 1000
+}
+
+[Controls]
+{
+	"label": Banner
+	"image": image
+	"x": 0
+	"y": 0
+	"detect_size": True
+	"width": 700
+	"height": 878
+	"directory": D:\HandJam Solution\HandJam\bin\Debug\Assets\Other
+	"subdirectories": False
+	"default": bannervert.png
+},
+{
+	"label": BGTop
+	"image": image
+	"x": 0
+	"y": 0
+	"detect_size": True
+	"width": 0
+	"height": 0
+	"directory": D:\HandJam Solution\HandJam\bin\Debug\Assets\Other
+	"subdirectories": False
+	"default": backgroundtopvert.png
+},
+{
+	"label": BG
+	"image": image
+	"x": 0
+	"y": 842
+	"detect_size": True
+	"width": 0
+	"height": 0
+	"directory": D:\HandJam Solution\HandJam\bin\Debug\Assets\Other
+	"subdirectories": False
+	"default": backgroundvert.png
+},
+{
+	"label": BGBottom
+	"image": image
+	"x": 0
+	"y": 771
+	"detect_size": True
+	"width": 0
+	"height": 0
+	"directory": D:\HandJam Solution\HandJam\bin\Debug\Assets\Other
+	"subdirectories": False
+	"default": backgroundbottomvert.png
+},
+{
+	"label": Art
+	"image": image
+	"x": 0
+	"y": 0
+	"detect_size": True
+	"width": 0
+	"height": 0
+	"directory": D:\HandJam Solution\HandJam\bin\Debug\Assets\Art
+	"subdirectories": True
+	"default": 
+},
+{
+	"label": Gold
+	"image": image
+	"x": 350
+	"y": 750
+	"detect_size": True
+	"width": 0
+	"height": 0
+	"directory": D:\HandJam Solution\HandJam\bin\Debug\Assets\Cost
+	"subdirectories": False
+	"default": 
+},
+{
+	"label": Stamina
+	"image": image
+	"x": 520
+	"y": 0
+	"detect_size": True
+	"width": 0
+	"height": 0
+	"directory": D:\HandJam Solution\HandJam\bin\Debug\Assets\Other
+	"subdirectories": False
+	"default": staminavertical.png
+},
+{
+	"label": Title
+	"text": text
+	"x": 30
+	"y": 40
+	"detect_size": False
+	"width": 0
+	"height": 0
+	"multiline": False
+	"lines": 2
+	"font": [Font: Name=Traditio AH, Size=75, Units=3, GdiCharSet=1, GdiVerticalFont=False]
+	"main_color": Color [A=255, R=255, G=244, B=228]
+	"main_alpha": 255
+	"alpha": TopLeft
+	"shadow": True
+	"shadow_color": Color [Black]
+	"shadow_alpha": 205
+	"distance": 5
+	"rotation": 45
+	"default": Title
+},
+{
+	"label": Description
+	"text": text
+	"x": 175
+	"y": 850
+	"detect_size": False
+	"width": 350
+	"height": 150
+	"multiline": True
+	"lines": 4
+	"font": [Font: Name=CalistoMTW01-Bold, Size=18, Units=3, GdiCharSet=1, GdiVerticalFont=False]
+	"main_color": Color [A=255, R=46, G=19, B=2]
+	"main_alpha": 255
+	"alpha": MiddleCenter
+	"shadow": False
+	"shadow_color": Color [Black]
+	"shadow_alpha": 255
+	"distance": 0
+	"rotation": 0
+	"default": Description
+},
+{
+	"label": GoldVal
+	"text": text
+	"x": 445
+	"y": 770
+	"detect_size": False
+	"width": 361
+	"height": 141
+	"multiline": False
+	"lines": 2
+	"font": [Font: Name=CalistoMTW01-Bold, Size=41, Units=3, GdiCharSet=1, GdiVerticalFont=False]
+	"main_color": Color [A=255, R=255, G=245, B=225]
+	"main_alpha": 255
+	"alpha": TopCenter
+	"shadow": True
+	"shadow_color": Color [A=215, R=76, G=17, B=1]
+	"shadow_alpha": 215
+	"distance": 5
+	"rotation": 45
+	"default": 
+},
+{
+	"label": StaminaVal
+	"text": text
+	"x": 535
+	"y": 30
+	"detect_size": False
+	"width": 180
+	"height": 174
+	"multiline": False
+	"lines": 2
+	"font": [Font: Name=CalistoMTW01-Bold, Size=60, Units=3, GdiCharSet=1, GdiVerticalFont=False]
+	"main_color": Color [A=255, R=255, G=244, B=228]
+	"main_alpha": 255
+	"alpha": TopCenter
+	"shadow": True
+	"shadow_color": Color [Black]
+	"shadow_alpha": 235
+	"distance": 5
+	"rotation": 45
+	"default": 
+},
+{
+	"label": Vignette
+	"image": image
+	"x": 0
+	"y": 0
+	"detect_size": True
+	"width": 0
+	"height": 0
+	"directory": D:\HandJam Solution\HandJam\bin\Debug\Assets\Vingette
+	"subdirectories": False
+	"default": vingettevertical.png
+}
+
+[Conditions]
+{
+	"value1": GoldVal
+	"value1attribute": value
+	"operator": IsNotEmpty
+	"value2": 
+	"value2attribute": 
+	"target": Gold
+	"targetattribute": value
+	"source": cost_1.png
+	"sourceattribute": 
+},
+{
+	"value1": GoldVal
+	"value1attribute": value
+	"operator": >=
+	"value2": 10
+	"value2attribute": 
+	"target": Gold
+	"targetattribute": value
+	"source": cost_2.png
+	"sourceattribute": 
+},
+{
+	"value1": GoldVal
+	"value1attribute": value
+	"operator": >=
+	"value2": 20
+	"value2attribute": 
+	"target": Gold
+	"targetattribute": value
+	"source": cost_3.png
+	"sourceattribute": 
+},
+{
+	"value1": GoldVal
+	"value1attribute": value
+	"operator": >=
+	"value2": 40
+	"value2attribute": 
+	"target": Gold
+	"targetattribute": value
+	"source": cost_4.png
+	"sourceattribute": 
+},
+{
+	"value1": GoldVal
+	"value1attribute": value
+	"operator": >=
+	"value2": 50
+	"value2attribute": 
+	"target": Gold
+	"targetattribute": value
+	"source": cost_5.png
+	"sourceattribute": 
+},
+{
+	"value1": GoldVal
+	"value1attribute": value
+	"operator": >=
+	"value2": 300
+	"value2attribute": 
+	"target": Gold
+	"targetattribute": value
+	"source": cost_6.png
+	"sourceattribute": 
+},
+{
+	"value1": StaminaVal
+	"value1attribute": value
+	"operator": IsEmpty
+	"value2": 
+	"value2attribute": 
+	"target": Stamina
+	"targetattribute": value
+	"source": 
+	"sourceattribute": 
+},
+{
+	"value1": StaminaVal
+	"value1attribute": value
+	"operator": IsNotEmpty
+	"value2": 
+	"value2attribute": 
+	"target": Stamina
+	"targetattribute": value
+	"source": staminavertical.png
+	"sourceattribute": 
+},
+{
+	"value1": GoldVal
+	"value1attribute": value
+	"operator": IsEmpty
+	"value2": 
+	"value2attribute": 
+	"target": Gold
+	"targetattribute": value
+	"source": 
+	"sourceattribute": 
+}

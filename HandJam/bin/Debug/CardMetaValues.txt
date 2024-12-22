@@ -1,0 +1,65 @@
+X/Y Values...
+Banner: 0/0
+BGTop: 0/115
+BG: 0/188
+BGBottom: 0/554
+GemBar: 0/542
+Art: 0/0
+Element: 775/485
+Gold: 650/25
+Stamina: 775/475
+Gem1: 46/495
+Gem2: 182/495
+Gem3: 317/495
+Gem4: 452/495
+Gem5: 586/495
+
+X/Y/W/H/Color Values...
+Gem1Rect: 110/618/70/30
+	185,20,10,1
+Gem2Rect: 245/618/70/30
+	185,20,10,1
+Gem3Rect: 380/618/70/30
+	185,20,10,1
+Gem4Rect: 515/618/70/30
+	185,20,10,1
+Gem5Rect: 650/618/70/30
+	185,20,10,1
+
+X/Y/W/H/Font/Color Values...
+Title: 70/58/0/0
+	FontFamily: Name=Traditio AH],Size=75,Bold=False,Italic=False
+	255,255,244,228
+Title Shadow: (none)
+	FontFamily: Name=Traditio AH],Size=75,Bold=False,Italic=False
+	205,0,0,0
+Subtitle: 100/212/0/0
+	FontFamily: Name=CalistoMTW01-Bold],Size=30,Bold=False,Italic=False
+	255,46,19,2
+Description: 100/287/640/265
+	FontFamily: Name=CalistoMTW01-Bold],Size=18,Bold=False,Italic=False
+	255,46,19,2
+Gold: 885/50/0/0 (926/85/0/0)
+	FontFamily: Name=CalistoMTW01-Bold],Size=41,Bold=False,Italic=False
+	255,255,245,225
+Stamina:  (880/575/0/0)
+	FontFamily: Name=CalistoMTW01-Bold],Size=60,Bold=False,Italic=False
+	255,255,244,228
+Stamina Shadow: (none)
+	FontFamily: Name=CalistoMTW01-Bold],Size=60,Bold=False,Italic=False
+	235,0,0,0
+Gem1Text: 140/622/0/0
+	FontFamily: Name=CalistoMTW01-Bold],Size=15,Bold=False,Italic=False
+	255,255,255,255
+Gem2Text: 275/622/0/0
+	FontFamily: Name=CalistoMTW01-Bold],Size=15,Bold=False,Italic=False
+	255,255,255,255
+Gem3Text: 410/622/0/0
+	FontFamily: Name=CalistoMTW01-Bold],Size=15,Bold=False,Italic=False
+	255,255,255,255
+Gem4Text: 545/622/0/0
+	FontFamily: Name=CalistoMTW01-Bold],Size=15,Bold=False,Italic=False
+	255,255,255,255
+Gem5Text: 680/622/0/0
+	FontFamily: Name=CalistoMTW01-Bold],Size=15,Bold=False,Italic=False
+	255,255,255,255

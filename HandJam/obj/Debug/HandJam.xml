@@ -1,0 +1,459 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+HandJam
+</name>
+</assembly>
+<members>
+<member name="T:HandJam.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:HandJam.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:HandJam.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:HandJam.My.Resources.Resources.change_icon">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HandJam.My.Resources.Resources.change_icon_20">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HandJam.My.Resources.Resources.type_mystery">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="M:HandJam.SharedSubsAndFuncs.GetListOfFilesFromDirectory(System.String,System.Boolean)">
+ <summary>
+ Returns an object array containing file names and optionally their associated subdirectories. Default value for subdirectory is false.
+ </summary>
+ <param name="dir">Directory.</param>
+ <param name="s">Boolean for subdirectories.</param>
+ <remarks></remarks>
+</member>
+<member name="M:HandJam.SharedSubsAndFuncs.GetListOfStrings(HandJam.SettersAndGetters)">
+ <summary>
+ Returns an object array containing label names from the setget.
+ </summary>
+ <param name="setget">The setget containing all control properties.</param>
+ <remarks></remarks>
+</member>
+<member name="M:HandJam.SharedSubsAndFuncs.GetListOfStrings(System.Object[0:,0:],System.Int32)">
+ <summary>
+ Returns an object array containing a list of Strings belonging to the specified array at the specified index.
+ </summary>
+ <param name="array">The setget containing all control properties.</param>
+ <param name="i">The setget containing all control properties.</param>
+ <remarks></remarks>
+</member>
+<member name="M:HandJam.SharedSubsAndFuncs.GetListOfAttributesByType(System.String)">
+ <summary>
+ Returns a string array containing attributes assigned to the specified type.
+ </summary>
+ <param name="t">A string representing a type. Must be "text", "image", or "shape".</param>
+</member>
+<member name="M:HandJam.Form1.EditControl(System.Int32)">
+ <summary>
+ Accepts the row index associated with the control and changes the row in the ControlsTableLayoutPanel.
+ </summary>
+ <param name="row">Control's row index.</param>
+</member>
+<member name="M:HandJam.Form1.RemoveControl(System.Int32)">
+ <summary>
+ Accepts the row index associated with the control and changes the row in the ControlsTableLayoutPanel.
+ </summary>
+ <param name="row"></param>
+</member>
+<member name="M:HandJam.Form1.LocationToRightOf(System.Windows.Forms.Form,System.Windows.Forms.Form)">
+ <summary>
+ Returns a point to the right of the source form.
+ </summary>
+ <param name="source">The source form.</param>
+ <param name="target">The form that is being moved to the right of the source form.</param>
+ <remarks></remarks>
+</member>
+<member name="M:HandJam.Form1.NewDeleteLabel(System.Windows.Forms.TextBox)">
+ <summary>
+ Returns a label used for deleting a row from the ControlsTableLayoutPanel.
+ </summary>
+ <param name="s">Textbox containing control name.</param>
+ <remarks></remarks>
+</member>
+<member name="M:HandJam.Form1.NewChangeLabel">
+ <summary>
+ Returns a label used for changing a control from the ControlsTableLayoutPanel.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:HandJam.Form1.NewControlLabel(System.Windows.Forms.TextBox)">
+ <summary>
+ Returns a label that represents the control from the ControlsTableLayoutPanel.
+ </summary>
+ <param name="s">Textbox containing control name.</param>
+ <remarks></remarks>
+</member>
+<member name="M:HandJam.Form1.NewTextBoxControl(System.Int32,System.Boolean)">
+ <summary>
+ Returns a New TextBox control for ControlsTableLayoutPanel. Intended for type Text.
+ </summary>
+ <param name="ln">The number of lines in a multi-line control.</param>
+ <param name="ml">Multi-line control. True or false.</param>
+ <remarks></remarks>
+</member>
+<member name="M:HandJam.Form1.NewComboBoxControl(System.String,System.Boolean)">
+ <summary>
+ Returns a New ComboBox control for ControlsTableLayoutPanel. Intended for type Images.
+ </summary>
+ <param name="dir">Directory that images will be taken from.</param>
+ <param name="subdir">Subdirectories enabled. True or false.</param>
+ <remarks></remarks>
+</member>
+<member name="M:HandJam.Form1.NewLabelControl(System.String)">
+ <summary>
+ Returns a New Label control for ControlsTableLayoutPanel. Intended for type Shapes.
+ </summary>
+ <param name="s">Text that acts as a placeholder for a textbox or combobox.</param>
+ <remarks></remarks>
+</member>
+<member name="M:HandJam.Form1.ProcessConditionsGetNewValue(System.Object[],System.Int32,System.Int32,System.Object[0:,0:],System.Int32)">
+ <summary>
+ Assistant function for ProcessConditions. Retrieves the NewValue for specified control, target, or source.
+ </summary>
+ <param name="labelColl">Collection of labels in Controls Table.</param>
+ <param name="i">Index of active Conditions form control.</param>
+ <param name="targetIndex">The active target index being processed by ProcessConditions.</param>
+ <param name="newArray">The new array where the overwritten properties are stored.</param>
+ <param name="r">The row within the DataGridView that is being rendered.</param>
+ <remarks></remarks>
+</member>
+<member name="M:HandJam.Form1.ProcessConditions(System.Object[0:,0:],System.Int32)">
+ <summary>
+ Processes the user defined conditions. Accepts an input array and the card's index, then returns a condition-corrected array. Adds a new element to the end of the array: value. 
+ </summary>
+ <param name="inputArray">The array to run against.</param>
+ <param name="r">The DataGridView row index of the card being processed.</param>
+ <remarks></remarks>
+</member>
+<member name="M:HandJam.Form1.ProcessImageLoop(System.Int32)">
+ <summary>
+ Sets up a loop for processing the image based on utilizing the Controls Table or the DataGridView. 
+ </summary>
+ <param name="r">Row index from DataGridView.</param>
+ <remarks></remarks>
+</member>
+<member name="M:HandJam.Form1.ProcessImage(System.Object[0:,0:],System.Drawing.Graphics@,System.Drawing.Bitmap@,System.Windows.Forms.Control,System.Int32,System.Windows.Forms.DataGridViewCell)">
+ <summary>
+ Process a new image by a specified row index from DataGridView. No row specified indiciates using the Controls Table. Outputs a drawSurface, Bitmap type.
+ </summary>
+ <param name="cell">Fuck you.</param>
+ <remarks></remarks>
+</member>
+<member name="M:HandJam.Form1.TableLayoutPanelRemoveRow(System.Windows.Forms.TableLayoutPanel@,System.Windows.Forms.Control@)">
+ <summary>
+ Removes the specified row from the table by saving the following rows, removing the current and following rows, then reinserting the following rows.
+ </summary>
+ <param name="tlp">TableLayoutPanel containing the desired row.</param>
+ <param name="c">Control belonging to the desired row.</param>
+ <remarks></remarks>
+</member>
+<member name="M:HandJam.Form1.TableLayoutPanelRemoveRow(System.Windows.Forms.TableLayoutPanel@,System.Int32@)">
+ <summary>
+ Removes the specified row from the table by saving the following rows, removing the current and following rows, then reinserting the following rows.
+ </summary>
+ <param name="tlp">TableLayoutPanel containing the desired row.</param>
+ <param name="r">Row belonging to the TableLayoutPanel.</param>
+ <remarks></remarks>
+</member>
+<member name="M:HandJam.Form1.TableLayoutPanelMoveRow(System.Windows.Forms.TableLayoutPanel@,System.Int32)">
+ <summary>
+ Moves the provided row down in the table by saving the following rows, then removing the provided and following rows. While reinserting the rows, the provided row is inserted right before the final row is inserted.
+ </summary>
+ <param name="tlp">TableLayoutPanel containing the desired row.</param>
+ <param name="row">The row's index (the one being moved down).</param>
+ <remarks></remarks>
+</member>
+<member name="M:HandJam.Form1.TableLayoutPanelChangeRow(System.Windows.Forms.TableLayoutPanel@,System.Int32,System.Object[])">
+ <summary>
+ Changes the selected row by removing it and all following rows, inserting the replacement row, and then reinserting all following rows.
+ </summary>
+ <param name="tlp">TableLayoutPanel containing the desired row.</param>
+ <param name="row">The row's index.</param>
+ <param name="newRow">Replacement row.</param>
+ <remarks></remarks>
+</member>
+<member name="M:HandJam.Form1.TableLayoutPanelGetRow(System.Windows.Forms.TableLayoutPanel@,System.Windows.Forms.Control)">
+ <summary>
+ Returns a collection of controls present at the specified control's row.
+ </summary>
+ <param name="tlp">TableLayoutPanel containing the desired row.</param>
+ <param name="c">Control belonging to the desired row.</param>
+ <remarks></remarks>
+</member>
+<member name="M:HandJam.Form1.TableLayoutPanelGetRow(System.Windows.Forms.TableLayoutPanel@,System.Int32)">
+ <summary>
+ Returns a collection of controls present at the specified row.
+ </summary>
+ <param name="tlp">TableLayoutPanel containing the desired row.</param>
+ <param name="r">The desired row.</param>
+ <remarks></remarks>
+</member>
+<member name="M:HandJam.Form1.TableLayoutPanelGetCell(System.Windows.Forms.TableLayoutPanel@,System.Int32,System.Int32)">
+ <summary>
+ Returns a cell present in the specified TableLayoutPanel, at the specified row and col.
+ </summary>
+ <param name="tlp">TableLayoutPanel containing the desired row.</param>
+ <param name="r">The desired row.</param>
+ <param name="c">The desired col.</param>
+ <remarks></remarks>
+</member>
+<member name="M:HandJam.Form1.TableLayoutPanelRemoveRowSub(System.Windows.Forms.TableLayoutPanel@,System.Int32)">
+ <summary>
+ Removes the specified row from the TableLayoutPanel. Only handles the removal of a single row, intended for use on final row of table.
+ </summary>
+ <param name="tlp">TableLayoutPanel containing the desired row.</param>
+ <param name="r">The desired row's position.</param>
+ <remarks></remarks>
+</member>
+<member name="M:HandJam.Form1.TableLayoutPanelAddRow(System.Windows.Forms.TableLayoutPanel@,System.Object[])">
+ <summary>
+ Adds a row to the TableLayoutPanel
+ </summary>
+ <param name="tlp">TableLayoutPanel to insert the row into.</param>
+ <param name="r">Row control collection.</param>
+ <remarks></remarks>
+</member>
+<member name="M:HandJam.Form1.TableLayoutPanelAddRowBack(System.Windows.Forms.TableLayoutPanel@,System.Object[])">
+ <summary>
+ Adds a row to the TableLayoutPanel
+ </summary>
+ <param name="tlp">TableLayoutPanel to insert the row into.</param>
+ <param name="r">Row control collection.</param>
+ <remarks></remarks>
+</member>
+<member name="M:HandJam.Form1.AddToSetget(System.String,System.Int32,System.Int32,System.Boolean,System.Int32,System.Int32,System.Boolean,System.Int32,System.Drawing.Font,System.Drawing.Color,System.Int32,System.String,System.Boolean,System.Drawing.Color,System.Int32,System.Int32,System.Int32,System.String)">
+ <summary>
+ Adds a text control to the setget array
+ </summary>
+ <param name="lt">Label text.</param>
+ <param name="x">X coordinate.</param>
+ <param name="y">Y coordinate.</param>
+ <param name="ds">Detect size, true or false.</param>
+ <param name="w">Element width.</param>
+ <param name="h">Element height.</param>
+ <param name="ml">Multi-line, true or false.</param>
+ <param name="ln">Number of lines.</param>
+ <param name="f">Text font.</param>
+ <param name="mC">Text color.</param>
+ <param name="mA">Text alpha (transparency).</param>
+ <param name="al">Alignment.</param>
+ <param name="sB">Shadow, true or false.</param>
+ <param name="sC">Text shadow color.</param>
+ <param name="sA">Text shadow alpha (transparency).</param>
+ <param name="dis">Text shadow distance from text.</param>
+ <param name="rot">Text shadow rotation from text.</param>
+ <param name="def">Default text.</param>
+ <remarks></remarks>
+</member>
+<member name="M:HandJam.Form1.AddToSetget(System.String,System.Int32,System.Int32,System.Boolean,System.Int32,System.Int32,System.String,System.Boolean,System.String)">
+ <summary>
+ Adds an image control to the setget array
+ </summary>
+ <param name="lt">Label text.</param>
+ <param name="x">X coordinate.</param>
+ <param name="y">Y coordinate.</param>
+ <param name="ds">Detect size, true or false.</param>
+ <param name="w">Element width.</param>
+ <param name="h">Element height.</param>
+ <param name="dir">Directory path.</param>
+ <param name="sf">Include subdirectories, true or false.</param>
+ <param name="def">Default image.</param>
+ <remarks></remarks>
+</member>
+<member name="M:HandJam.Form1.AddToSetget(System.String,System.Int32,System.Int32,System.Boolean,System.Int32,System.Int32,System.String,System.Drawing.Color,System.Int32,System.Int32,System.Drawing.Color,System.Int32)">
+ <summary>
+ Adds a shape control to the setget array
+ </summary>
+ <param name="lt">Label text.</param>
+ <param name="x">X coordinate.</param>
+ <param name="y">Y coordinate.</param>
+ <param name="ds">Detect size, true or false.</param>
+ <param name="w">Element width.</param>
+ <param name="h">Element height.</param>
+ <param name="s">Shape.</param>
+ <param name="oC">Outline color.</param>
+ <param name="oA">Outline alpha.</param>
+ <param name="t">Outline line thickness</param>
+ <param name="fC">Fill color.</param>
+ <param name="fA">Fill alpha.</param>
+ <remarks></remarks>
+</member>
+<member name="M:HandJam.Form1.EditSetget(System.Int32,System.String,System.Int32,System.Int32,System.Boolean,System.Int32,System.Int32,System.Boolean,System.Int32,System.Drawing.Font,System.Drawing.Color,System.Int32,System.String,System.Boolean,System.Drawing.Color,System.Int32,System.Int32,System.Int32,System.String)">
+ <summary>
+ Edits an existing text control in the setget array by utilizing the provided row index.
+ </summary>
+ <param name="r">TableLayoutPanel row index.</param>
+ <param name="lt">Label text.</param>
+ <param name="x">X coordinate.</param>
+ <param name="y">Y coordinate.</param>
+ <param name="ds">Detect size, true or false.</param>
+ <param name="w">Element width.</param>
+ <param name="h">Element height.</param>
+ <param name="ml">Multi-line, true or false.</param>
+ <param name="ln">Number of lines.</param>
+ <param name="f">Text font.</param>
+ <param name="mC">Text color.</param>
+ <param name="mA">Text alpha (transparency).</param>
+ <param name="al">Alignment.</param>
+ <param name="sB">Shadow, true or false.</param>
+ <param name="sC">Text shadow color.</param>
+ <param name="sA">Text shadow alpha (transparency).</param>
+ <param name="dis">Text shadow distance from text.</param>
+ <param name="rot">Text shadow rotation from text.</param>
+ <param name="def">Default text.</param>
+ <remarks></remarks>
+</member>
+<member name="M:HandJam.Form1.EditSetget(System.Int32,System.String,System.Int32,System.Int32,System.Boolean,System.Int32,System.Int32,System.String,System.Boolean,System.String)">
+ <summary>
+ Edits an existing image control in the setget array by utilizing the provided row index.
+ </summary>
+ <param name="r">TableLayoutPanel row index.</param>
+ <param name="lt">Label text.</param>
+ <param name="x">X coordinate.</param>
+ <param name="y">Y coordinate.</param>
+ <param name="ds">Detect size, true or false.</param>
+ <param name="w">Element width.</param>
+ <param name="h">Element height.</param>
+ <param name="dir">Directory path.</param>
+ <param name="sf">Include subdirectories, true or false.</param>
+ <param name="def">Default image.</param>
+ <remarks></remarks>
+</member>
+<member name="M:HandJam.Form1.EditSetget(System.Int32,System.String,System.Int32,System.Int32,System.Boolean,System.Int32,System.Int32,System.String,System.Drawing.Color,System.Int32,System.Int32,System.Drawing.Color,System.Int32)">
+ <summary>
+ Edits an existing shape control in the setget array by utilizing the provided row index.
+ </summary>
+ <param name="r">TableLayoutPanel row index.</param>
+ <param name="lt">Label text.</param>
+ <param name="x">X coordinate.</param>
+ <param name="y">Y coordinate.</param>
+ <param name="ds">Detect size, true or false.</param>
+ <param name="w">Element width.</param>
+ <param name="h">Element height.</param>
+ <param name="s">Shape.</param>
+ <param name="oC">Outline color.</param>
+ <param name="oA">Outline alpha.</param>
+ <param name="t">Outline line thickness</param>
+ <param name="fC">Fill color.</param>
+ <param name="fA">Fill alpha.</param>
+ <remarks></remarks>
+</member>
+<member name="M:HandJam.Form1.RemoveFromSetget(System.String)">
+ <summary>
+ Removes a row from the setget by searching for the associated label. Less efficient and can probably be deleted (to-do).
+ </summary>
+ <param name="lt">Label text.</param>
+ <remarks></remarks>
+</member>
+<member name="M:HandJam.Form1.RemoveFromSetget(System.Int32)">
+ <summary>
+ Removes a row from the setget by searching for the associated TableLayoutPanel row.
+ </summary>
+ <param name="r">TableLayoutPanel row index.</param>
+ <remarks></remarks>
+</member>
+<member name="M:HandJam.Form1.JSFileDataLoader(System.String)">
+ <summary>
+ Receives data from the file and inserts it into the DataGridView. This method requires a file of the ".js" extension.
+ </summary>
+ <param name="filepath">Path of file being extracted.</param>
+ <remarks></remarks>
+</member>
+<member name="M:HandJam.Form1.HCLFileDataLoader(System.String)">
+ <summary>
+ Receives data from the file and inserts it into the DataGridView. This method requires a file of the ".hcl" extension.
+ </summary>
+ <param name="filepath">Path of file being extracted.</param>
+ <remarks></remarks>
+</member>
+<member name="M:HandJam.Form1.GetIndexOfHeader(System.String[],System.String)">
+ <summary>
+ Accepts a String array and returns the index of the given String. Returns a -1 if not found.
+ </summary>
+ <param name="list">List of strings.</param>
+ <param name="s">Desired string.</param>
+</member>
+<member name="M:HandJam.Form1.AddControlToTable(System.Windows.Forms.TableLayoutPanel,System.String,System.Int32,System.Int32,System.Boolean,System.Int32,System.Int32,System.Boolean,System.Int32,System.Drawing.Font,System.Drawing.Color,System.Int32,System.String,System.Boolean,System.Drawing.Color,System.Int32,System.Int32,System.Int32,System.String)">
+ <summary>
+ Adds a text control to the table, setget, and datagridview.
+ </summary>
+ <param name="tlp">Destination TableLayoutPanel.</param>
+ <param name="lt">Label text.</param>
+ <param name="x">X coordinate.</param>
+ <param name="y">Y coordinate.</param>
+ <param name="ds">Detect size, true or false.</param>
+ <param name="w">Element width.</param>
+ <param name="h">Element height.</param>
+ <param name="ml">Multi-line, true or false.</param>
+ <param name="ln">Number of lines.</param>
+ <param name="f">Text font.</param>
+ <param name="mC">Text color.</param>
+ <param name="mA">Text alpha (transparency).</param>
+ <param name="al">Alignment.</param>
+ <param name="sB">Shadow, true or false.</param>
+ <param name="sC">Text shadow color.</param>
+ <param name="sA">Text shadow alpha (transparency).</param>
+ <param name="dis">Text shadow distance from text.</param>
+ <param name="rot">Text shadow rotation from text.</param>
+ <param name="def">Default text.</param>
+ <remarks></remarks>
+</member>
+<member name="M:HandJam.Form1.AddControlToTable(System.Windows.Forms.TableLayoutPanel,System.String,System.Int32,System.Int32,System.Boolean,System.Int32,System.Int32,System.String,System.Boolean,System.String)">
+ <summary>
+ Adds an image control to the table, setget, and datagridview.
+ </summary>
+ <param name="tlp">Destination TableLayoutPanel.</param>
+ <param name="lt">Label text.</param>
+ <param name="x">X coordinate.</param>
+ <param name="y">Y coordinate.</param>
+ <param name="ds">Detect size, true or false.</param>
+ <param name="w">Element width.</param>
+ <param name="h">Element height.</param>
+ <param name="dir">Directory path.</param>
+ <param name="sf">Include subdirectories, true or false.</param>
+ <param name="def">Default image.</param>
+ <remarks></remarks>
+</member>
+<member name="M:HandJam.Form1.AddControlToTable(System.Windows.Forms.TableLayoutPanel,System.String,System.Int32,System.Int32,System.Boolean,System.Int32,System.Int32,System.String,System.Drawing.Color,System.Int32,System.Int32,System.Drawing.Color,System.Int32)">
+ <summary>
+ Adds a shape control to the table, setget, and datagridview.
+ </summary>
+ <param name="lt">Label text.</param>
+ <param name="x">X coordinate.</param>
+ <param name="y">Y coordinate.</param>
+ <param name="ds">Detect size, true or false.</param>
+ <param name="w">Element width.</param>
+ <param name="h">Element height.</param>
+ <param name="s">Shape.</param>
+ <param name="oC">Outline color.</param>
+ <param name="oA">Outline alpha.</param>
+ <param name="t">Outline line thickness</param>
+ <param name="fC">Fill color.</param>
+ <param name="fA">Fill alpha.</param>
+ <remarks></remarks>
+</member>
+</members>
+</doc>

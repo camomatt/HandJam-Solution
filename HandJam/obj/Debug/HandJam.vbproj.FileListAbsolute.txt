@@ -1,0 +1,131 @@
+H:\Users\matth\Documents\Visual Basic\HandJam Solution\HandJam\bin\Debug\HandJam.exe.config
+H:\Users\matth\Documents\Visual Basic\HandJam Solution\HandJam\bin\Debug\HandJam.exe
+H:\Users\matth\Documents\Visual Basic\HandJam Solution\HandJam\bin\Debug\HandJam.pdb
+H:\Users\matth\Documents\Visual Basic\HandJam Solution\HandJam\bin\Debug\HandJam.xml
+H:\Users\matth\Documents\Visual Basic\HandJam Solution\HandJam\obj\Debug\HandJam.vbproj.AssemblyReference.cache
+H:\Users\matth\Documents\Visual Basic\HandJam Solution\HandJam\obj\Debug\HandJam.Form1.resources
+H:\Users\matth\Documents\Visual Basic\HandJam Solution\HandJam\obj\Debug\HandJam.Resources.resources
+H:\Users\matth\Documents\Visual Basic\HandJam Solution\HandJam\obj\Debug\HandJam.vbproj.GenerateResource.cache
+H:\Users\matth\Documents\Visual Basic\HandJam Solution\HandJam\obj\Debug\HandJam.vbproj.CoreCompileInputs.cache
+H:\Users\matth\Documents\Visual Basic\HandJam Solution\HandJam\obj\Debug\HandJam.exe
+H:\Users\matth\Documents\Visual Basic\HandJam Solution\HandJam\obj\Debug\HandJam.xml
+H:\Users\matth\Documents\Visual Basic\HandJam Solution\HandJam\obj\Debug\HandJam.pdb
+H:\Users\matth\Documents\Visual Basic\HandJam Solution\HandJam\obj\Debug\HandJam.AboutBox1.resources
+H:\Users\matth\Documents\Visual Basic\HandJam Solution\HandJam\obj\Debug\HandJam.Preferences.resources
+H:\Users\matth\Documents\Visual Basic\HandJam Solution\HandJam\obj\Debug\HandJam.AddObjectForm.resources
+D:\HandJam Solution\HandJam\bin\Debug\HandJam.exe.config
+D:\HandJam Solution\HandJam\bin\Debug\HandJam.exe
+D:\HandJam Solution\HandJam\bin\Debug\HandJam.pdb
+D:\HandJam Solution\HandJam\bin\Debug\HandJam.xml
+D:\HandJam Solution\HandJam\obj\Debug\HandJam.AboutBox1.resources
+D:\HandJam Solution\HandJam\obj\Debug\HandJam.AddObjectForm.resources
+D:\HandJam Solution\HandJam\obj\Debug\HandJam.Form1.resources
+D:\HandJam Solution\HandJam\obj\Debug\HandJam.Resources.resources
+D:\HandJam Solution\HandJam\obj\Debug\HandJam.Preferences.resources
+D:\HandJam Solution\HandJam\obj\Debug\HandJam.vbproj.GenerateResource.cache
+D:\HandJam Solution\HandJam\obj\Debug\HandJam.vbproj.CoreCompileInputs.cache
+D:\HandJam Solution\HandJam\obj\Debug\HandJam.exe
+D:\HandJam Solution\HandJam\obj\Debug\HandJam.xml
+D:\HandJam Solution\HandJam\obj\Debug\HandJam.pdb
+K:\HandJam Solution\HandJam\obj\Debug\HandJam.vbproj.AssemblyReference.cache
+K:\HandJam Solution\HandJam\obj\Debug\HandJam.AboutBox1.resources
+K:\HandJam Solution\HandJam\obj\Debug\HandJam.AddObjectForm.resources
+K:\HandJam Solution\HandJam\obj\Debug\HandJam.Form1.resources
+K:\HandJam Solution\HandJam\obj\Debug\HandJam.Resources.resources
+K:\HandJam Solution\HandJam\obj\Debug\HandJam.Preferences.resources
+K:\HandJam Solution\HandJam\obj\Debug\HandJam.vbproj.GenerateResource.cache
+K:\HandJam Solution\HandJam\obj\Debug\HandJam.vbproj.CoreCompileInputs.cache
+K:\HandJam Solution\HandJam\obj\Debug\HandJam.exe
+K:\HandJam Solution\HandJam\obj\Debug\HandJam.xml
+K:\HandJam Solution\HandJam\obj\Debug\HandJam.pdb
+K:\HandJam Solution\HandJam\bin\Debug\HandJam.exe.config
+K:\HandJam Solution\HandJam\bin\Debug\HandJam.exe
+K:\HandJam Solution\HandJam\bin\Debug\HandJam.pdb
+K:\HandJam Solution\HandJam\bin\Debug\HandJam.xml
+D:\HandJam Solution\HandJam\obj\Debug\HandJam.Conditions.resources
+K:\HandJam Solution\HandJam\obj\Debug\HandJam.Conditions.resources
+K:\HandJam Solution\HandJam\obj\Debug\HandJam.ColumnConversion.resources
+D:\HandJam Solution\HandJam\obj\Debug\HandJam.ColumnConversion.resources
+D:\HandJam Solution\HandJam\obj\Debug\HandJam.CardProperties.resources
+D:\HandJam Solution\HandJam\obj\Debug\HandJam.vbprojAssemblyReference.cache
+K:\HandJam Solution\HandJam\obj\Debug\HandJam.CardProperties.resources
+K:\HandJam Solution\HandJam\obj\Debug\HandJam.FileNameFormatter.resources
+H:\Users\matth\Documents\Visual Basic\HandJam Solution 20230611\HandJam\bin\Debug\HandJam.exe.config
+H:\Users\matth\Documents\Visual Basic\HandJam Solution 20230611\HandJam\bin\Debug\HandJam.exe
+H:\Users\matth\Documents\Visual Basic\HandJam Solution 20230611\HandJam\bin\Debug\HandJam.pdb
+H:\Users\matth\Documents\Visual Basic\HandJam Solution 20230611\HandJam\bin\Debug\HandJam.xml
+H:\Users\matth\Documents\Visual Basic\HandJam Solution 20230611\HandJam\obj\Debug\HandJam.vbproj.AssemblyReference.cache
+H:\Users\matth\Documents\Visual Basic\HandJam Solution 20230611\HandJam\obj\Debug\HandJam.AboutBox1.resources
+H:\Users\matth\Documents\Visual Basic\HandJam Solution 20230611\HandJam\obj\Debug\HandJam.AddObjectForm.resources
+H:\Users\matth\Documents\Visual Basic\HandJam Solution 20230611\HandJam\obj\Debug\HandJam.CardProperties.resources
+H:\Users\matth\Documents\Visual Basic\HandJam Solution 20230611\HandJam\obj\Debug\HandJam.ColumnConversion.resources
+H:\Users\matth\Documents\Visual Basic\HandJam Solution 20230611\HandJam\obj\Debug\HandJam.Conditions.resources
+H:\Users\matth\Documents\Visual Basic\HandJam Solution 20230611\HandJam\obj\Debug\HandJam.FileNameFormatter.resources
+H:\Users\matth\Documents\Visual Basic\HandJam Solution 20230611\HandJam\obj\Debug\HandJam.Form1.resources
+H:\Users\matth\Documents\Visual Basic\HandJam Solution 20230611\HandJam\obj\Debug\HandJam.Resources.resources
+H:\Users\matth\Documents\Visual Basic\HandJam Solution 20230611\HandJam\obj\Debug\HandJam.Preferences.resources
+H:\Users\matth\Documents\Visual Basic\HandJam Solution 20230611\HandJam\obj\Debug\HandJam.vbproj.GenerateResource.cache
+H:\Users\matth\Documents\Visual Basic\HandJam Solution 20230611\HandJam\obj\Debug\HandJam.vbproj.CoreCompileInputs.cache
+H:\Users\matth\Documents\Visual Basic\HandJam Solution 20230611\HandJam\obj\Debug\HandJam.exe
+H:\Users\matth\Documents\Visual Basic\HandJam Solution 20230611\HandJam\obj\Debug\HandJam.xml
+H:\Users\matth\Documents\Visual Basic\HandJam Solution 20230611\HandJam\obj\Debug\HandJam.pdb
+D:\HandJam Solution 20230823\HandJam\bin\Debug\HandJam.exe.config
+D:\HandJam Solution 20230823\HandJam\bin\Debug\HandJam.exe
+D:\HandJam Solution 20230823\HandJam\bin\Debug\HandJam.pdb
+D:\HandJam Solution 20230823\HandJam\bin\Debug\HandJam.xml
+D:\HandJam Solution 20230823\HandJam\obj\Debug\HandJam.vbprojAssemblyReference.cache
+D:\HandJam Solution 20230823\HandJam\obj\Debug\HandJam.AboutBox1.resources
+D:\HandJam Solution 20230823\HandJam\obj\Debug\HandJam.AddObjectForm.resources
+D:\HandJam Solution 20230823\HandJam\obj\Debug\HandJam.CardProperties.resources
+D:\HandJam Solution 20230823\HandJam\obj\Debug\HandJam.ColumnConversion.resources
+D:\HandJam Solution 20230823\HandJam\obj\Debug\HandJam.Conditions.resources
+D:\HandJam Solution 20230823\HandJam\obj\Debug\HandJam.DeckExportSettings.resources
+D:\HandJam Solution 20230823\HandJam\obj\Debug\HandJam.FileNameFormatter.resources
+D:\HandJam Solution 20230823\HandJam\obj\Debug\HandJam.Form1.resources
+D:\HandJam Solution 20230823\HandJam\obj\Debug\HandJam.Resources.resources
+D:\HandJam Solution 20230823\HandJam\obj\Debug\HandJam.Preferences.resources
+D:\HandJam Solution 20230823\HandJam\obj\Debug\HandJam.vbproj.GenerateResource.cache
+D:\HandJam Solution 20230823\HandJam\obj\Debug\HandJam.vbproj.CoreCompileInputs.cache
+D:\HandJam Solution 20230823\HandJam\obj\Debug\HandJam.exe
+D:\HandJam Solution 20230823\HandJam\obj\Debug\HandJam.xml
+D:\HandJam Solution 20230823\HandJam\obj\Debug\HandJam.pdb
+J:\HandJam Solution 20230823\HandJam\bin\Debug\HandJam.exe.config
+J:\HandJam Solution 20230823\HandJam\bin\Debug\HandJam.exe
+J:\HandJam Solution 20230823\HandJam\bin\Debug\HandJam.pdb
+J:\HandJam Solution 20230823\HandJam\bin\Debug\HandJam.xml
+J:\HandJam Solution 20230823\HandJam\obj\Debug\HandJam.vbproj.AssemblyReference.cache
+J:\HandJam Solution 20230823\HandJam\obj\Debug\HandJam.AboutBox1.resources
+J:\HandJam Solution 20230823\HandJam\obj\Debug\HandJam.AddObjectForm.resources
+J:\HandJam Solution 20230823\HandJam\obj\Debug\HandJam.CardProperties.resources
+J:\HandJam Solution 20230823\HandJam\obj\Debug\HandJam.ColumnConversion.resources
+J:\HandJam Solution 20230823\HandJam\obj\Debug\HandJam.Conditions.resources
+J:\HandJam Solution 20230823\HandJam\obj\Debug\HandJam.DeckExportSettings.resources
+J:\HandJam Solution 20230823\HandJam\obj\Debug\HandJam.FileNameFormatter.resources
+J:\HandJam Solution 20230823\HandJam\obj\Debug\HandJam.Form1.resources
+J:\HandJam Solution 20230823\HandJam\obj\Debug\HandJam.Resources.resources
+J:\HandJam Solution 20230823\HandJam\obj\Debug\HandJam.Preferences.resources
+J:\HandJam Solution 20230823\HandJam\obj\Debug\HandJam.vbproj.GenerateResource.cache
+J:\HandJam Solution 20230823\HandJam\obj\Debug\HandJam.vbproj.CoreCompileInputs.cache
+J:\HandJam Solution 20230823\HandJam\obj\Debug\HandJam.exe
+J:\HandJam Solution 20230823\HandJam\obj\Debug\HandJam.xml
+J:\HandJam Solution 20230823\HandJam\obj\Debug\HandJam.pdb
+H:\Users\matth\Documents\Visual Basic\HandJam Solution 20230827(2)\HandJam\bin\Debug\HandJam.exe.config
+H:\Users\matth\Documents\Visual Basic\HandJam Solution 20230827(2)\HandJam\bin\Debug\HandJam.exe
+H:\Users\matth\Documents\Visual Basic\HandJam Solution 20230827(2)\HandJam\bin\Debug\HandJam.pdb
+H:\Users\matth\Documents\Visual Basic\HandJam Solution 20230827(2)\HandJam\bin\Debug\HandJam.xml
+H:\Users\matth\Documents\Visual Basic\HandJam Solution 20230827(2)\HandJam\obj\Debug\HandJam.vbproj.AssemblyReference.cache
+H:\Users\matth\Documents\Visual Basic\HandJam Solution 20230827(2)\HandJam\obj\Debug\HandJam.AboutBox1.resources
+H:\Users\matth\Documents\Visual Basic\HandJam Solution 20230827(2)\HandJam\obj\Debug\HandJam.AddObjectForm.resources
+H:\Users\matth\Documents\Visual Basic\HandJam Solution 20230827(2)\HandJam\obj\Debug\HandJam.CardProperties.resources
+H:\Users\matth\Documents\Visual Basic\HandJam Solution 20230827(2)\HandJam\obj\Debug\HandJam.ColumnConversion.resources
+H:\Users\matth\Documents\Visual Basic\HandJam Solution 20230827(2)\HandJam\obj\Debug\HandJam.Conditions.resources
+H:\Users\matth\Documents\Visual Basic\HandJam Solution 20230827(2)\HandJam\obj\Debug\HandJam.DeckExportSettings.resources
+H:\Users\matth\Documents\Visual Basic\HandJam Solution 20230827(2)\HandJam\obj\Debug\HandJam.FileNameFormatter.resources
+H:\Users\matth\Documents\Visual Basic\HandJam Solution 20230827(2)\HandJam\obj\Debug\HandJam.Form1.resources
+H:\Users\matth\Documents\Visual Basic\HandJam Solution 20230827(2)\HandJam\obj\Debug\HandJam.Resources.resources
+H:\Users\matth\Documents\Visual Basic\HandJam Solution 20230827(2)\HandJam\obj\Debug\HandJam.Preferences.resources
+H:\Users\matth\Documents\Visual Basic\HandJam Solution 20230827(2)\HandJam\obj\Debug\HandJam.vbproj.GenerateResource.cache
+H:\Users\matth\Documents\Visual Basic\HandJam Solution 20230827(2)\HandJam\obj\Debug\HandJam.vbproj.CoreCompileInputs.cache
+H:\Users\matth\Documents\Visual Basic\HandJam Solution 20230827(2)\HandJam\obj\Debug\HandJam.exe
+H:\Users\matth\Documents\Visual Basic\HandJam Solution 20230827(2)\HandJam\obj\Debug\HandJam.xml
+H:\Users\matth\Documents\Visual Basic\HandJam Solution 20230827(2)\HandJam\obj\Debug\HandJam.pdb

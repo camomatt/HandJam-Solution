@@ -1,0 +1,674 @@
+﻿[Card Properties]
+{
+	"width": 1000
+	"height": 700
+}
+
+[Controls]
+{
+	"label": Banner
+	"image": image
+	"x": 0
+	"y": 0
+	"detect_size": True
+	"width": 0
+	"height": 0
+	"directory": D:\HandJam Solution\HandJam\bin\Debug\Assets\Other
+	"subdirectories": False
+	"default": banner.png
+},
+{
+	"label": BGTop
+	"image": image
+	"x": 0
+	"y": 115
+	"detect_size": True
+	"width": 0
+	"height": 0
+	"directory": D:\HandJam Solution\HandJam\bin\Debug\Assets\Other
+	"subdirectories": False
+	"default": backgroundtop.png
+},
+{
+	"label": BG
+	"image": image
+	"x": 0
+	"y": 188
+	"detect_size": True
+	"width": 0
+	"height": 0
+	"directory": D:\HandJam Solution\HandJam\bin\Debug\Assets\Other
+	"subdirectories": False
+	"default": background.png
+},
+{
+	"label": BGBottom
+	"image": image
+	"x": 0
+	"y": 554
+	"detect_size": True
+	"width": 0
+	"height": 0
+	"directory": D:\HandJam Solution\HandJam\bin\Debug\Assets\Other
+	"subdirectories": False
+	"default": backgroundbottom.png
+},
+{
+	"label": Art
+	"image": image
+	"x": 0
+	"y": 0
+	"detect_size": True
+	"width": 0
+	"height": 0
+	"directory": D:\HandJam Solution\HandJam\bin\Debug\Assets\Art
+	"subdirectories": True
+	"default": 
+},
+{
+	"label": GemBar
+	"image": image
+	"x": 0
+	"y": 542
+	"detect_size": True
+	"width": 0
+	"height": 0
+	"directory": D:\HandJam Solution\HandJam\bin\Debug\Assets\Other
+	"subdirectories": False
+	"default": gembar5.png
+},
+{
+	"label": ElementBorder
+	"image": image
+	"x": 775
+	"y": 485
+	"detect_size": True
+	"width": 0
+	"height": 0
+	"directory": D:\HandJam Solution\HandJam\bin\Debug\Assets\Other
+	"subdirectories": False
+	"default": 
+},
+{
+	"label": Element1
+	"image": image
+	"x": 0
+	"y": 0
+	"detect_size": True
+	"width": 0
+	"height": 0
+	"directory": D:\HandJam Solution\HandJam\bin\Debug\Assets\Elements
+	"subdirectories": False
+	"default": 
+},
+{
+	"label": Element2
+	"image": image
+	"x": 0
+	"y": 0
+	"detect_size": True
+	"width": 0
+	"height": 0
+	"directory": D:\HandJam Solution\HandJam\bin\Debug\Assets\Elements
+	"subdirectories": False
+	"default": 
+},
+{
+	"label": Gold
+	"image": image
+	"x": 650
+	"y": 25
+	"detect_size": True
+	"width": 0
+	"height": 0
+	"directory": D:\HandJam Solution\HandJam\bin\Debug\Assets\Cost
+	"subdirectories": False
+	"default": cost_5.png
+},
+{
+	"label": Stamina
+	"image": image
+	"x": 775
+	"y": 475
+	"detect_size": True
+	"width": 0
+	"height": 0
+	"directory": D:\HandJam Solution\HandJam\bin\Debug\Assets\Other
+	"subdirectories": False
+	"default": stamina.png
+},
+{
+	"label": Gem1
+	"image": image
+	"x": 46
+	"y": 495
+	"detect_size": True
+	"width": 0
+	"height": 0
+	"directory": D:\HandJam Solution\HandJam\bin\Debug\Assets\Gems
+	"subdirectories": False
+	"default": 
+},
+{
+	"label": Gem2
+	"image": image
+	"x": 182
+	"y": 495
+	"detect_size": True
+	"width": 0
+	"height": 0
+	"directory": D:\HandJam Solution\HandJam\bin\Debug\Assets\Gems
+	"subdirectories": False
+	"default": 
+},
+{
+	"label": Gem3
+	"image": image
+	"x": 317
+	"y": 495
+	"detect_size": True
+	"width": 0
+	"height": 0
+	"directory": D:\HandJam Solution\HandJam\bin\Debug\Assets\Gems
+	"subdirectories": False
+	"default": 
+},
+{
+	"label": Gem4
+	"image": image
+	"x": 452
+	"y": 495
+	"detect_size": True
+	"width": 0
+	"height": 0
+	"directory": D:\HandJam Solution\HandJam\bin\Debug\Assets\Gems
+	"subdirectories": False
+	"default": 
+},
+{
+	"label": Gem5
+	"image": image
+	"x": 586
+	"y": 495
+	"detect_size": True
+	"width": 0
+	"height": 0
+	"directory": D:\HandJam Solution\HandJam\bin\Debug\Assets\Gems
+	"subdirectories": False
+	"default": 
+},
+{
+	"label": Gem1Rect
+	"shape": shape
+	"x": 110
+	"y": 618
+	"detect_size": False
+	"width": 70
+	"height": 30
+	"selected_shape": Rectangle
+	"outline_color": Color [A=255, R=20, G=10, B=1]
+	"outline_alpha": 0
+	"thickness": 0
+	"fill_color": Color [A=255, R=20, G=10, B=1]
+	"fill_alpha": 185
+},
+{
+	"label": Gem2Rect
+	"shape": shape
+	"x": 245
+	"y": 618
+	"detect_size": False
+	"width": 70
+	"height": 30
+	"selected_shape": Rectangle
+	"outline_color": Color [A=255, R=20, G=10, B=1]
+	"outline_alpha": 0
+	"thickness": 0
+	"fill_color": Color [A=255, R=20, G=10, B=1]
+	"fill_alpha": 185
+},
+{
+	"label": Gem3Rect
+	"shape": shape
+	"x": 380
+	"y": 618
+	"detect_size": False
+	"width": 70
+	"height": 30
+	"selected_shape": Rectangle
+	"outline_color": Color [A=255, R=20, G=10, B=1]
+	"outline_alpha": 0
+	"thickness": 0
+	"fill_color": Color [A=255, R=20, G=10, B=1]
+	"fill_alpha": 185
+},
+{
+	"label": Gem4Rect
+	"shape": shape
+	"x": 515
+	"y": 618
+	"detect_size": False
+	"width": 70
+	"height": 30
+	"selected_shape": Rectangle
+	"outline_color": Color [A=255, R=20, G=10, B=1]
+	"outline_alpha": 0
+	"thickness": 0
+	"fill_color": Color [A=255, R=20, G=10, B=1]
+	"fill_alpha": 185
+},
+{
+	"label": Gem5Rect
+	"shape": shape
+	"x": 650
+	"y": 618
+	"detect_size": False
+	"width": 70
+	"height": 30
+	"selected_shape": Rectangle
+	"outline_color": Color [A=255, R=20, G=10, B=1]
+	"outline_alpha": 0
+	"thickness": 0
+	"fill_color": Color [A=255, R=20, G=10, B=1]
+	"fill_alpha": 185
+},
+{
+	"label": Title
+	"text": text
+	"x": 70
+	"y": 58
+	"detect_size": False
+	"width": 0
+	"height": 0
+	"multiline": False
+	"lines": 2
+	"font": [Font: Name=Traditio AH, Size=75, Units=3, GdiCharSet=1, GdiVerticalFont=False]
+	"main_color": Color [A=255, R=255, G=244, B=228]
+	"main_alpha": 255
+	"alpha": TopLeft
+	"shadow": True
+	"shadow_color": Color [Black]
+	"shadow_alpha": 205
+	"distance": 5
+	"rotation": 45
+	"default": Title
+},
+{
+	"label": Subtitle
+	"text": text
+	"x": 100
+	"y": 212
+	"detect_size": False
+	"width": 0
+	"height": 0
+	"multiline": False
+	"lines": 2
+	"font": [Font: Name=CalistoMTW01-Bold, Size=30, Units=3, GdiCharSet=1, GdiVerticalFont=False]
+	"main_color": Color [A=255, R=46, G=19, B=2]
+	"main_alpha": 255
+	"alpha": TopLeft
+	"shadow": False
+	"shadow_color": Color [Black]
+	"shadow_alpha": 255
+	"distance": 0
+	"rotation": 0
+	"default": Subtitle
+},
+{
+	"label": Description
+	"text": text
+	"x": 100
+	"y": 287
+	"detect_size": False
+	"width": 640
+	"height": 265
+	"multiline": True
+	"lines": 4
+	"font": [Font: Name=CalistoMTW01-Bold, Size=18, Units=3, GdiCharSet=1, GdiVerticalFont=False]
+	"main_color": Color [A=255, R=46, G=19, B=2]
+	"main_alpha": 255
+	"alpha": TopLeft
+	"shadow": False
+	"shadow_color": Color [Black]
+	"shadow_alpha": 255
+	"distance": 0
+	"rotation": 0
+	"default": Description
+},
+{
+	"label": GoldVal
+	"text": text
+	"x": 860
+	"y": 50
+	"detect_size": False
+	"width": 0
+	"height": 0
+	"multiline": False
+	"lines": 2
+	"font": [Font: Name=CalistoMTW01-Bold, Size=41, Units=3, GdiCharSet=1, GdiVerticalFont=False]
+	"main_color": Color [A=255, R=255, G=245, B=225]
+	"main_alpha": 255
+	"alpha": TopCenter
+	"shadow": False
+	"shadow_color": Color [Black]
+	"shadow_alpha": 255
+	"distance": 0
+	"rotation": 0
+	"default": 
+},
+{
+	"label": StaminaVal
+	"text": text
+	"x": 765
+	"y": 530
+	"detect_size": False
+	"width": 0
+	"height": 0
+	"multiline": False
+	"lines": 2
+	"font": [Font: Name=CalistoMTW01-Bold, Size=60, Units=3, GdiCharSet=1, GdiVerticalFont=False]
+	"main_color": Color [A=255, R=255, G=244, B=228]
+	"main_alpha": 255
+	"alpha": TopCenter
+	"shadow": True
+	"shadow_color": Color [Black]
+	"shadow_alpha": 235
+	"distance": 5
+	"rotation": 45
+	"default": 
+},
+{
+	"label": Gem1Text
+	"text": text
+	"x": 135
+	"y": 622
+	"detect_size": False
+	"width": 20
+	"height": 10
+	"multiline": False
+	"lines": 2
+	"font": [Font: Name=CalistoMTW01-Bold, Size=15, Units=3, GdiCharSet=1, GdiVerticalFont=False]
+	"main_color": Color [White]
+	"main_alpha": 255
+	"alpha": TopCenter
+	"shadow": False
+	"shadow_color": Color [Black]
+	"shadow_alpha": 255
+	"distance": 0
+	"rotation": 0
+	"default": 
+},
+{
+	"label": Gem2Text
+	"text": text
+	"x": 270
+	"y": 622
+	"detect_size": False
+	"width": 20
+	"height": 10
+	"multiline": False
+	"lines": 2
+	"font": [Font: Name=CalistoMTW01-Bold, Size=15, Units=3, GdiCharSet=1, GdiVerticalFont=False]
+	"main_color": Color [White]
+	"main_alpha": 255
+	"alpha": TopCenter
+	"shadow": False
+	"shadow_color": Color [Black]
+	"shadow_alpha": 255
+	"distance": 0
+	"rotation": 0
+	"default": 
+},
+{
+	"label": Gem3Text
+	"text": text
+	"x": 405
+	"y": 622
+	"detect_size": False
+	"width": 20
+	"height": 10
+	"multiline": False
+	"lines": 2
+	"font": [Font: Name=CalistoMTW01-Bold, Size=15, Units=3, GdiCharSet=1, GdiVerticalFont=False]
+	"main_color": Color [White]
+	"main_alpha": 255
+	"alpha": TopCenter
+	"shadow": False
+	"shadow_color": Color [Black]
+	"shadow_alpha": 255
+	"distance": 0
+	"rotation": 0
+	"default": 
+},
+{
+	"label": Gem4Text
+	"text": text
+	"x": 540
+	"y": 622
+	"detect_size": False
+	"width": 20
+	"height": 10
+	"multiline": False
+	"lines": 2
+	"font": [Font: Name=CalistoMTW01-Bold, Size=15, Units=3, GdiCharSet=1, GdiVerticalFont=False]
+	"main_color": Color [White]
+	"main_alpha": 255
+	"alpha": TopCenter
+	"shadow": False
+	"shadow_color": Color [Black]
+	"shadow_alpha": 255
+	"distance": 0
+	"rotation": 0
+	"default": 
+},
+{
+	"label": Gem5Text
+	"text": text
+	"x": 675
+	"y": 622
+	"detect_size": False
+	"width": 20
+	"height": 10
+	"multiline": False
+	"lines": 2
+	"font": [Font: Name=CalistoMTW01-Bold, Size=15, Units=3, GdiCharSet=1, GdiVerticalFont=False]
+	"main_color": Color [White]
+	"main_alpha": 255
+	"alpha": TopCenter
+	"shadow": False
+	"shadow_color": Color [Black]
+	"shadow_alpha": 255
+	"distance": 0
+	"rotation": 0
+	"default": 
+},
+{
+	"label": Vignette
+	"image": image
+	"x": 0
+	"y": 0
+	"detect_size": True
+	"width": 0
+	"height": 0
+	"directory": D:\HandJam Solution\HandJam\bin\Debug\Assets\Vingette
+	"subdirectories": False
+	"default": vingette.png
+}
+
+[Conditions]
+{
+	"value1": GoldVal
+	"value1attribute": value
+	"operator": IsNotEmpty
+	"value2": 
+	"value2attribute": 
+	"target": Gold
+	"targetattribute": value
+	"source": cost_1.png
+	"sourceattribute": 
+},
+{
+	"value1": GoldVal
+	"value1attribute": value
+	"operator": >=
+	"value2": 10
+	"value2attribute": 
+	"target": Gold
+	"targetattribute": value
+	"source": cost_2.png
+	"sourceattribute": 
+},
+{
+	"value1": GoldVal
+	"value1attribute": value
+	"operator": >=
+	"value2": 20
+	"value2attribute": 
+	"target": Gold
+	"targetattribute": value
+	"source": cost_3.png
+	"sourceattribute": 
+},
+{
+	"value1": GoldVal
+	"value1attribute": value
+	"operator": >=
+	"value2": 40
+	"value2attribute": 
+	"target": Gold
+	"targetattribute": value
+	"source": cost_4.png
+	"sourceattribute": 
+},
+{
+	"value1": GoldVal
+	"value1attribute": value
+	"operator": >=
+	"value2": 50
+	"value2attribute": 
+	"target": Gold
+	"targetattribute": value
+	"source": cost_5.png
+	"sourceattribute": 
+},
+{
+	"value1": GoldVal
+	"value1attribute": value
+	"operator": >=
+	"value2": 300
+	"value2attribute": 
+	"target": Gold
+	"targetattribute": value
+	"source": cost_6.png
+	"sourceattribute": 
+},
+{
+	"value1": Gem1Text
+	"value1attribute": value
+	"operator": IsEmpty
+	"value2": 
+	"value2attribute": 
+	"target": Gem1Rect
+	"targetattribute": fill_alpha
+	"source": 0
+	"sourceattribute": 
+},
+{
+	"value1": Gem2Text
+	"value1attribute": value
+	"operator": IsEmpty
+	"value2": 
+	"value2attribute": 
+	"target": Gem2Rect
+	"targetattribute": fill_alpha
+	"source": 0
+	"sourceattribute": 
+},
+{
+	"value1": Gem3Text
+	"value1attribute": value
+	"operator": IsEmpty
+	"value2": 
+	"value2attribute": 
+	"target": Gem3Rect
+	"targetattribute": fill_alpha
+	"source": 0
+	"sourceattribute": 
+},
+{
+	"value1": Gem4Text
+	"value1attribute": value
+	"operator": IsEmpty
+	"value2": 
+	"value2attribute": 
+	"target": Gem4Rect
+	"targetattribute": fill_alpha
+	"source": 0
+	"sourceattribute": 
+},
+{
+	"value1": Gem5Text
+	"value1attribute": value
+	"operator": IsEmpty
+	"value2": 
+	"value2attribute": 
+	"target": Gem5Rect
+	"targetattribute": fill_alpha
+	"source": 0
+	"sourceattribute": 
+},
+{
+	"value1": StaminaVal
+	"value1attribute": value
+	"operator": IsEmpty
+	"value2": 
+	"value2attribute": 
+	"target": Stamina
+	"targetattribute": value
+	"source": 
+	"sourceattribute": 
+},
+{
+	"value1": StaminaVal
+	"value1attribute": value
+	"operator": IsNotEmpty
+	"value2": 
+	"value2attribute": 
+	"target": Stamina
+	"targetattribute": value
+	"source": stamina.png
+	"sourceattribute": 
+},
+{
+	"value1": GoldVal
+	"value1attribute": value
+	"operator": IsEmpty
+	"value2": 
+	"value2attribute": 
+	"target": Gold
+	"targetattribute": value
+	"source": 
+	"sourceattribute": 
+},
+{
+	"value1": Element1
+	"value1attribute": value
+	"operator": IsNotEmpty
+	"value2": 
+	"value2attribute": 
+	"target": ElementBorder
+	"targetattribute": value
+	"source": elementBorder.png
+	"sourceattribute": 
+},
+{
+	"value1": Element2
+	"value1attribute": value
+	"operator": IsNotEmpty
+	"value2": 
+	"value2attribute": 
+	"target": ElementBorder
+	"targetattribute": value
+	"source": elementBorder.png
+	"sourceattribute": 
+}
